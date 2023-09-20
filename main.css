@@ -3,7 +3,7 @@
 h1 {
     text-align: center;
     color: black;
-    font-size: large;
+    font-size: xx-large;
 }
 
 h2 {
@@ -17,4 +17,17 @@ p {
     color: white;
     font-size: small;
 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.image {
+    border:5px solid #000000; 
+    padding:3px; 
+    margin:5px
 }
