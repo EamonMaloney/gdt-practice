@@ -1,4 +1,7 @@
-
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #63666A;
+}
 
 h1 {
     text-align: center;
@@ -9,14 +12,29 @@ h1 {
 h2 {
     text-align: center;
     color: #041E42;
-    font-size: medium;
+    font-size: large;
 }
 
 p {
     text-align: left;
     color: white;
-    font-size: small;
+    font-size: medium;
+    text-indent: 6%;
+}
 
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+a {
+    color:#041E42;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .center {
@@ -30,4 +48,37 @@ p {
     border:5px solid #000000; 
     padding:3px; 
     margin:5px
+}
+
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:5px solid #000000; 
+    padding:3px; 
+}
+
+.sidebarleft {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #041E42;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebarright {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #041E42;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
